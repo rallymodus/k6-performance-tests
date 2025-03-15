@@ -4,21 +4,18 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Run Smoke Test",
-      "program": "${workspaceFolder}/scripts/smoke.js",
+      "name": "Run Load Test",
       "runtimeExecutable": "k6",
-      "args": ["run", "${workspaceFolder}/scripts/smoke.js"],
+      "args": ["run", "${workspaceFolder}/scripts/load.js"],
       "console": "integratedTerminal"
     },
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Run Load Test",
-      "program": "${workspaceFolder}/scripts/load.js",
+      "name": "Run Smoke Test",
       "runtimeExecutable": "k6",
-      "args": ["run", "${workspaceFolder}/scripts/load.js"],
+      "args": ["run", "${workspaceFolder}/scripts/smoke.js"],
       "console": "integratedTerminal"
-    }
+    } 
   ]
 }
-
