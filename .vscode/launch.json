@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Run Smoke Test",
+      "program": "${workspaceFolder}/scripts/smoke.js",
+      "runtimeExecutable": "k6",
+      "args": ["run", "${workspaceFolder}/scripts/smoke.js"],
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Run Load Test",
+      "program": "${workspaceFolder}/scripts/load.js",
+      "runtimeExecutable": "k6",
+      "args": ["run", "${workspaceFolder}/scripts/load.js"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
+
