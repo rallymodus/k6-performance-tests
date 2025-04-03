@@ -1,5 +1,3 @@
-Here is the updated content for your `README.md` file:
-
 ```markdown
 # k6 Performance Tests
 
