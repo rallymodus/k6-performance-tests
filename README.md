@@ -1,5 +1,4 @@
-```markdown
-# k6 Performance Tests
+## k6 Performance Tests
 
 This repo contains an example of performance testing scripts written in JavaScript using [k6](https://k6.io/).
 
