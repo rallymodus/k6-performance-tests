@@ -22,4 +22,4 @@ k6 run --out json=results/output.json scripts/load.js
 ## 🌐 Test Website
 
 The tests in this repository are performed on [https://test.k6.io](https://test.k6.io).
-```
+
