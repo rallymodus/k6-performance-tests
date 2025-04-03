@@ -1,6 +1,5 @@
 import http from 'k6/http';
 import { check, sleep } from 'k6';
-import { htmlReport } from '../utils/htmlReport.js';
 
 export let options = {
     stages: [
@@ -19,8 +18,3 @@ export default function () {
     sleep(1);
 }
 
-export function handleSummary(data) {
-    return {
-        'results/summary.html': htmlReport(data),
-    };
-}
